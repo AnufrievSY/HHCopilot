@@ -1,0 +1,528 @@
+C:\Projects\HHCopilot\.venv\Scripts\python.exe C:\Projects\HHCopilot\src\core\apply_loop.py
+INFO     | 11:54:33.894 | 34  apply_loop | RUN APPLY for SergeyAY
+INFO     | 11:54:33.894 | 36  apply_loop | FILTERS: {'text': 'Python', 'area': 3}
+WARNING  | 11:54:36.052 | 85  operations | [129678056] Уже откликнулись
+WARNING  | 11:54:36.773 | 85  operations | [129730415] Уже откликнулись
+WARNING  | 11:54:37.447 | 85  operations | [129904297] Уже откликнулись
+WARNING  | 11:54:38.300 | 85  operations | [129752418] Уже откликнулись
+WARNING  | 11:54:39.645 | 85  operations | [129594128] Уже откликнулись
+WARNING  | 11:54:40.495 | 88  operations | [129939951] Обязательно сопроводительное письмо
+ERROR    | 11:54:41.051 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:54:42.024 | 81  operations | [129304493] Успешный отклик
+INFO     | 11:54:42.969 | 81  operations | [129471472] Успешный отклик
+INFO     | 11:54:43.909 | 81  operations | [128379668] Успешный отклик
+ERROR    | 11:54:44.435 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+ERROR    | 11:54:45.120 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+WARNING  | 11:54:45.962 | 85  operations | [127382775] Уже откликнулись
+INFO     | 11:54:46.912 | 81  operations | [128992331] Успешный отклик
+ERROR    | 11:54:47.523 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:54:48.847 | 81  operations | [129262094] Успешный отклик
+INFO     | 11:54:49.868 | 81  operations | [129905876] Успешный отклик
+INFO     | 11:54:50.765 | 81  operations | [129651865] Успешный отклик
+INFO     | 11:54:51.582 | 81  operations | [129979223] Успешный отклик
+INFO     | 11:54:52.645 | 81  operations | [129725571] Успешный отклик
+WARNING  | 11:54:53.502 | 88  operations | [129902360] Обязательно сопроводительное письмо
+INFO     | 11:54:54.313 | 81  operations | [129772919] Успешный отклик
+INFO     | 11:54:55.162 | 81  operations | [129624462] Успешный отклик
+INFO     | 11:54:56.226 | 81  operations | [126802482] Успешный отклик
+INFO     | 11:54:57.147 | 81  operations | [129740276] Успешный отклик
+INFO     | 11:54:57.950 | 81  operations | [129292138] Успешный отклик
+INFO     | 11:54:59.716 | 81  operations | [129770895] Успешный отклик
+INFO     | 11:55:00.647 | 81  operations | [129625476] Успешный отклик
+INFO     | 11:55:01.789 | 81  operations | [129845817] Успешный отклик
+WARNING  | 11:55:02.806 | 85  operations | [129426745] Уже откликнулись
+INFO     | 11:55:03.897 | 81  operations | [129672835] Успешный отклик
+INFO     | 11:55:04.730 | 81  operations | [128068566] Успешный отклик
+WARNING  | 11:55:05.510 | 88  operations | [129161585] Обязательно сопроводительное письмо
+INFO     | 11:55:06.315 | 81  operations | [129734253] Успешный отклик
+INFO     | 11:55:07.344 | 81  operations | [127441460] Успешный отклик
+INFO     | 11:55:08.549 | 81  operations | [126348899] Успешный отклик
+INFO     | 11:55:09.465 | 81  operations | [129739729] Успешный отклик
+WARNING  | 11:55:10.254 | 85  operations | [129477786] Уже откликнулись
+INFO     | 11:55:11.313 | 81  operations | [129520865] Успешный отклик
+WARNING  | 11:55:12.175 | 85  operations | [124170582] Уже откликнулись
+INFO     | 11:55:13.017 | 81  operations | [128951554] Успешный отклик
+INFO     | 11:55:13.949 | 81  operations | [129461377] Успешный отклик
+INFO     | 11:55:14.918 | 81  operations | [129690517] Успешный отклик
+INFO     | 11:55:15.807 | 81  operations | [129593490] Успешный отклик
+INFO     | 11:55:16.673 | 81  operations | [128748152] Успешный отклик
+INFO     | 11:55:17.455 | 81  operations | [129439533] Успешный отклик
+INFO     | 11:55:18.454 | 81  operations | [129395379] Успешный отклик
+WARNING  | 11:55:19.229 | 88  operations | [128315578] Обязательно сопроводительное письмо
+INFO     | 11:55:20.003 | 81  operations | [129582413] Успешный отклик
+INFO     | 11:55:20.867 | 81  operations | [129904247] Успешный отклик
+INFO     | 11:55:21.822 | 81  operations | [129933759] Успешный отклик
+INFO     | 11:55:22.659 | 81  operations | [129598189] Успешный отклик
+INFO     | 11:55:23.459 | 81  operations | [129795391] Успешный отклик
+INFO     | 11:55:24.434 | 81  operations | [129029157] Успешный отклик
+INFO     | 11:55:25.369 | 81  operations | [129897594] Успешный отклик
+ERROR    | 11:55:25.934 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+WARNING  | 11:55:26.605 | 85  operations | [128433930] Уже откликнулись
+INFO     | 11:55:27.544 | 81  operations | [129338726] Успешный отклик
+ERROR    | 11:55:28.095 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:55:29.107 | 81  operations | [129723226] Успешный отклик
+WARNING  | 11:55:29.877 | 85  operations | [128991634] Уже откликнулись
+INFO     | 11:55:30.692 | 81  operations | [129923334] Успешный отклик
+INFO     | 11:55:31.760 | 81  operations | [128424914] Успешный отклик
+INFO     | 11:55:32.805 | 81  operations | [129927559] Успешный отклик
+ERROR    | 11:55:33.339 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:55:34.225 | 81  operations | [129623569] Успешный отклик
+INFO     | 11:55:35.058 | 81  operations | [128862178] Успешный отклик
+INFO     | 11:55:35.879 | 81  operations | [127369300] Успешный отклик
+INFO     | 11:55:36.876 | 81  operations | [128551818] Успешный отклик
+INFO     | 11:55:37.824 | 81  operations | [129793169] Успешный отклик
+INFO     | 11:55:39.366 | 81  operations | [129619938] Успешный отклик
+INFO     | 11:55:40.221 | 81  operations | [124356970] Успешный отклик
+WARNING  | 11:55:40.973 | 88  operations | [129377419] Обязательно сопроводительное письмо
+INFO     | 11:55:41.889 | 81  operations | [129752374] Успешный отклик
+WARNING  | 11:55:42.899 | 85  operations | [129468742] Уже откликнулись
+WARNING  | 11:55:43.757 | 85  operations | [129349529] Уже откликнулись
+ERROR    | 11:55:44.285 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:55:45.120 | 81  operations | [129520055] Успешный отклик
+INFO     | 11:55:46.097 | 81  operations | [129926893] Успешный отклик
+INFO     | 11:55:46.987 | 81  operations | [129632274] Успешный отклик
+INFO     | 11:55:47.928 | 81  operations | [129716560] Успешный отклик
+WARNING  | 11:55:49.036 | 85  operations | [129365833] Уже откликнулись
+INFO     | 11:55:49.962 | 81  operations | [129642312] Успешный отклик
+INFO     | 11:55:50.777 | 81  operations | [128528940] Успешный отклик
+INFO     | 11:55:51.898 | 81  operations | [129571221] Успешный отклик
+WARNING  | 11:55:52.645 | 85  operations | [127781147] Уже откликнулись
+INFO     | 11:55:53.570 | 81  operations | [129338112] Успешный отклик
+INFO     | 11:55:54.336 | 81  operations | [126528739] Успешный отклик
+INFO     | 11:55:55.142 | 81  operations | [128528848] Успешный отклик
+INFO     | 11:55:56.384 | 81  operations | [129892583] Успешный отклик
+INFO     | 11:55:57.404 | 81  operations | [127937647] Успешный отклик
+INFO     | 11:55:58.267 | 81  operations | [129764007] Успешный отклик
+INFO     | 11:55:59.140 | 81  operations | [126776121] Успешный отклик
+INFO     | 11:56:00.292 | 81  operations | [129506137] Успешный отклик
+INFO     | 11:56:01.350 | 81  operations | [129600578] Успешный отклик
+INFO     | 11:56:02.214 | 81  operations | [129940973] Успешный отклик
+INFO     | 11:56:03.064 | 81  operations | [129328854] Успешный отклик
+INFO     | 11:56:03.961 | 81  operations | [129414399] Успешный отклик
+INFO     | 11:56:05.315 | 81  operations | [121920379] Успешный отклик
+INFO     | 11:56:06.346 | 81  operations | [125261737] Успешный отклик
+WARNING  | 11:56:07.485 | 85  operations | [127911268] Уже откликнулись
+INFO     | 11:56:08.424 | 81  operations | [129478877] Успешный отклик
+INFO     | 11:56:09.178 | 81  operations | [129719687] Успешный отклик
+INFO     | 11:56:10.135 | 81  operations | [129656629] Успешный отклик
+INFO     | 11:56:11.275 | 81  operations | [129153773] Успешный отклик
+INFO     | 11:56:12.092 | 81  operations | [129361529] Успешный отклик
+INFO     | 11:56:12.963 | 81  operations | [126934779] Успешный отклик
+INFO     | 11:56:13.984 | 81  operations | [129287815] Успешный отклик
+INFO     | 11:56:14.864 | 81  operations | [128612345] Успешный отклик
+INFO     | 11:56:15.711 | 81  operations | [129535350] Успешный отклик
+ERROR    | 11:56:16.216 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:56:17.180 | 81  operations | [129439647] Успешный отклик
+ERROR    | 11:56:17.755 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:56:18.768 | 81  operations | [128951623] Успешный отклик
+INFO     | 11:56:19.581 | 81  operations | [129648018] Успешный отклик
+INFO     | 11:56:21.389 | 81  operations | [129634167] Успешный отклик
+INFO     | 11:56:22.420 | 81  operations | [126449093] Успешный отклик
+INFO     | 11:56:23.248 | 81  operations | [129836214] Успешный отклик
+ERROR    | 11:56:23.768 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:56:25.034 | 81  operations | [129933349] Успешный отклик
+INFO     | 11:56:25.958 | 81  operations | [129246478] Успешный отклик
+INFO     | 11:56:26.948 | 81  operations | [129805190] Успешный отклик
+WARNING  | 11:56:27.621 | 85  operations | [125318192] Уже откликнулись
+INFO     | 11:56:28.648 | 81  operations | [124771584] Успешный отклик
+INFO     | 11:56:29.495 | 81  operations | [127116269] Успешный отклик
+INFO     | 11:56:30.341 | 81  operations | [129439024] Успешный отклик
+INFO     | 11:56:31.147 | 81  operations | [123450217] Успешный отклик
+INFO     | 11:56:32.125 | 81  operations | [129809129] Успешный отклик
+INFO     | 11:56:33.103 | 81  operations | [128086388] Успешный отклик
+INFO     | 11:56:34.220 | 81  operations | [129956828] Успешный отклик
+WARNING  | 11:56:35.042 | 88  operations | [129376941] Обязательно сопроводительное письмо
+WARNING  | 11:56:36.024 | 88  operations | [129742651] Обязательно сопроводительное письмо
+INFO     | 11:56:37.000 | 81  operations | [129163275] Успешный отклик
+INFO     | 11:56:37.897 | 81  operations | [129444891] Успешный отклик
+INFO     | 11:56:38.693 | 81  operations | [129561955] Успешный отклик
+ERROR    | 11:56:39.386 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:56:40.283 | 81  operations | [124771893] Успешный отклик
+INFO     | 11:56:41.857 | 81  operations | [129438609] Успешный отклик
+INFO     | 11:56:42.897 | 81  operations | [129849279] Успешный отклик
+WARNING  | 11:56:43.777 | 85  operations | [129438268] Уже откликнулись
+INFO     | 11:56:44.729 | 81  operations | [129709383] Успешный отклик
+INFO     | 11:56:45.615 | 81  operations | [128037563] Успешный отклик
+INFO     | 11:56:46.839 | 81  operations | [129344829] Успешный отклик
+ERROR    | 11:56:47.363 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+WARNING  | 11:56:48.238 | 85  operations | [125383524] Уже откликнулись
+INFO     | 11:56:49.136 | 81  operations | [129689549] Успешный отклик
+ERROR    | 11:56:49.578 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:56:50.831 | 81  operations | [129377588] Успешный отклик
+ERROR    | 11:56:51.428 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+ERROR    | 11:56:51.925 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+ERROR    | 11:56:52.660 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:56:53.730 | 81  operations | [129667654] Успешный отклик
+INFO     | 11:56:54.758 | 81  operations | [129293775] Успешный отклик
+INFO     | 11:56:56.007 | 81  operations | [122333703] Успешный отклик
+INFO     | 11:56:56.945 | 81  operations | [123000593] Успешный отклик
+ERROR    | 11:56:57.606 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:56:58.361 | 81  operations | [129466207] Успешный отклик
+INFO     | 11:56:59.314 | 81  operations | [129308945] Успешный отклик
+ERROR    | 11:56:59.868 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+ERROR    | 11:57:00.334 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:57:01.304 | 81  operations | [129301930] Успешный отклик
+WARNING  | 11:57:02.211 | 85  operations | [126616673] Уже откликнулись
+ERROR    | 11:57:02.800 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+INFO     | 11:57:03.825 | 81  operations | [129632275] Успешный отклик
+INFO     | 11:57:05.267 | 81  operations | [127052582] Успешный отклик
+INFO     | 11:57:05.269 | 36  apply_loop | FILTERS: {'text': 'Python', 'work_format': ['REMOTE'], 'area': 3}
+WARNING  | 11:57:06.799 | 85  operations | [129678056] Уже откликнулись
+WARNING  | 11:57:07.621 | 85  operations | [129752418] Уже откликнулись
+WARNING  | 11:57:08.343 | 85  operations | [129594128] Уже откликнулись
+WARNING  | 11:57:09.220 | 88  operations | [129939951] Обязательно сопроводительное письмо
+ERROR    | 11:57:09.709 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+WARNING  | 11:57:10.754 | 85  operations | [129471472] Уже откликнулись
+ERROR    | 11:57:11.289 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+ERROR    | 11:57:11.817 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+WARNING  | 11:57:12.920 | 85  operations | [127382775] Уже откликнулись
+WARNING  | 11:57:13.682 | 85  operations | [128992331] Уже откликнулись
+WARNING  | 11:57:14.427 | 85  operations | [129979223] Уже откликнулись
+WARNING  | 11:57:15.139 | 85  operations | [129725571] Уже откликнулись
+WARNING  | 11:57:15.825 | 88  operations | [129902360] Обязательно сопроводительное письмо
+WARNING  | 11:57:16.686 | 85  operations | [129624462] Уже откликнулись
+WARNING  | 11:57:17.582 | 85  operations | [129740276] Уже откликнулись
+WARNING  | 11:57:18.453 | 85  operations | [129770895] Уже откликнулись
+WARNING  | 11:57:19.286 | 85  operations | [129672835] Уже откликнулись
+WARNING  | 11:57:20.032 | 88  operations | [129161585] Обязательно сопроводительное письмо
+WARNING  | 11:57:20.937 | 85  operations | [129461377] Уже откликнулись
+WARNING  | 11:57:21.635 | 85  operations | [128748152] Уже откликнулись
+WARNING  | 11:57:22.438 | 88  operations | [128315578] Обязательно сопроводительное письмо
+WARNING  | 11:57:23.230 | 85  operations | [129723226] Уже откликнулись
+WARNING  | 11:57:24.050 | 85  operations | [129793169] Уже откликнулись
+WARNING  | 11:57:24.893 | 85  operations | [129619938] Уже откликнулись
+WARNING  | 11:57:25.774 | 88  operations | [129377419] Обязательно сопроводительное письмо
+WARNING  | 11:57:26.498 | 85  operations | [129349529] Уже откликнулись
+ERROR    | 11:57:27.015 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+WARNING  | 11:57:27.740 | 85  operations | [129632274] Уже откликнулись
+WARNING  | 11:57:28.896 | 85  operations | [127781147] Уже откликнулись
+WARNING  | 11:57:29.686 | 85  operations | [127937647] Уже откликнулись
+ERROR    | 11:57:50.713 | 30  apply_loop | HTTPSConnectionPool(host='ekaterinburg.hh.ru', port=443): Max retries exceeded with url: /applicant/vacancy_response/popup?vacancyId=129506137&isTest=no&withoutTest=no&lux=true&alreadyApplied=false&_xsrf=abb6e2ac2f77cfb7d40727b26593b78c (Caused by ConnectTimeoutError(<HTTPSConnection(host='ekaterinburg.hh.ru', port=443) at 0x130dde9cb90>, 'Connection to ekaterinburg.hh.ru timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise ConnectTimeoutError(
+    ...<2 lines>...
+    ) from e
+urllib3.exceptions.ConnectTimeoutError: (<HTTPSConnection(host='ekaterinburg.hh.ru', port=443) at 0x130dde9cb90>, 'Connection to ekaterinburg.hh.ru timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ekaterinburg.hh.ru', port=443): Max retries exceeded with url: /applicant/vacancy_response/popup?vacancyId=129506137&isTest=no&withoutTest=no&lux=true&alreadyApplied=false&_xsrf=abb6e2ac2f77cfb7d40727b26593b78c (Caused by ConnectTimeoutError(<HTTPSConnection(host='ekaterinburg.hh.ru', port=443) at 0x130dde9cb90>, 'Connection to ekaterinburg.hh.ru timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 72, in apply_vacancy
+    vacancy_info_response = client.vacancy.get_vacancy_info(vacancy_id=vacancy_id)
+  File "C:\Projects\HHCopilot\src\infra\hh\client.py", line 143, in get_vacancy_info
+    return self._session.get(
+           ~~~~~~~~~~~~~~~~~^
+        url=f"{BASE_URL}/applicant/vacancy_response/popup",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+            "_xsrf": self._cookies['_xsrf']
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        })
+        ^^
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Projects\HHCopilot\.venv\Lib\site-packages\requests\adapters.py", line 665, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='ekaterinburg.hh.ru', port=443): Max retries exceeded with url: /applicant/vacancy_response/popup?vacancyId=129506137&isTest=no&withoutTest=no&lux=true&alreadyApplied=false&_xsrf=abb6e2ac2f77cfb7d40727b26593b78c (Caused by ConnectTimeoutError(<HTTPSConnection(host='ekaterinburg.hh.ru', port=443) at 0x130dde9cb90>, 'Connection to ekaterinburg.hh.ru timed out. (connect timeout=None)'))
+WARNING  | 11:57:51.502 | 85  operations | [129414399] Уже откликнулись
+WARNING  | 11:57:52.228 | 85  operations | [127911268] Уже откликнулись
+WARNING  | 11:57:52.901 | 85  operations | [129719687] Уже откликнулись
+WARNING  | 11:57:53.683 | 85  operations | [129648018] Уже откликнулись
+WARNING  | 11:57:54.383 | 85  operations | [129634167] Уже откликнулись
+WARNING  | 11:57:55.225 | 85  operations | [129836214] Уже откликнулись
+ERROR    | 11:57:55.753 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+WARNING  | 11:57:56.432 | 85  operations | [129246478] Уже откликнулись
+WARNING  | 11:57:57.279 | 85  operations | [124771584] Уже откликнулись
+WARNING  | 11:57:58.071 | 85  operations | [123450217] Уже откликнулись
+WARNING  | 11:57:58.805 | 85  operations | [128086388] Уже откликнулись
+WARNING  | 11:57:59.491 | 88  operations | [129376941] Обязательно сопроводительное письмо
+WARNING  | 11:58:00.226 | 88  operations | [129742651] Обязательно сопроводительное письмо
+WARNING  | 11:58:01.094 | 85  operations | [129163275] Уже откликнулись
+ERROR    | 11:58:01.683 | 30  apply_loop | 'lastResponseResumeHash'
+Traceback (most recent call last):
+  File "C:\Projects\HHCopilot\src\core\apply_loop.py", line 28, in apply
+    operations.apply_vacancy(user_name=user_name, vacancy_id=_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\HHCopilot\src\infra\hh\operations.py", line 74, in apply_vacancy
+    resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'lastResponseResumeHash'
+WARNING  | 11:58:02.533 | 85  operations | [124771893] Уже откликнулись
+WARNING  | 11:58:03.614 | 85  operations | [129689549] Уже откликнулись
+WARNING  | 11:58:04.334 | 85  operations | [129667654] Уже откликнулись
+WARNING  | 11:58:05.080 | 85  operations | [122333703] Уже откликнулись
+WARNING  | 11:58:06.168 | 85  operations | [123000593] Уже откликнулись
+WARNING  | 11:58:06.955 | 85  operations | [129466207] Уже откликнулись
+WARNING  | 11:58:07.734 | 85  operations | [129308945] Уже откликнулись
+WARNING  | 11:58:08.621 | 85  operations | [129301930] Уже откликнулись
+WARNING  | 11:58:09.326 | 85  operations | [129632275] Уже откликнулись
+
+Process finished with exit code 0

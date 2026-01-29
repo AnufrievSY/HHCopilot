@@ -1,4 +1,7 @@
 from pathlib import Path
+
+import orjson
+import pandas as pd
 from pydantic._internal._model_construction import ModelMetaclass
 import yaml
 
@@ -67,4 +70,27 @@ def txt_add(file_path: Path | str, data: str):
 
     with open(file_path, "a", encoding="utf-8") as f:
         f.write(data)
+
+def save_json(data: dict | list, file_path: str | Path):
+    file_path = Path(file_path)
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+    file_path.write_bytes(orjson.dumps(data, option=orjson.OPT_INDENT_2))
+
+def read_json(file_path: str | Path) -> dict | list:
+    return orjson.loads(Path(file_path).read_bytes())
+
+def save_csv(df: pd.DataFrame, file_path: str | Path) -> None:
+    if not str(file_path).endswith('.csv'):
+        file_path = str(file_path) + '.csv'
+    file_path = Path(file_path) if isinstance(file_path, str) else file_path
+    if not file_path.parent.exists():
+        file_path.parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(file_path, sep=';', decimal=',', encoding='utf-8-sig', index=False)
+
+
+def read_csv(file_path: str | Path) -> pd.DataFrame:
+    if not str(file_path).endswith('.csv'):
+        file_path = str(file_path) + '.csv'
+    _df = pd.read_csv(file_path, sep=';', decimal=',', encoding='utf-8-sig', low_memory=False)
+    return _df
 

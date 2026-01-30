@@ -19,16 +19,19 @@ def apply(user_name: str, resume_hash: str, ids: list[int], letter: str = ""):
     for _id in tqdm.tqdm(ids, total=len(ids)):
         try:
             operations.apply_vacancy(user_name=user_name, vacancy_id=_id, resume_hash=resume_hash, letter=letter)
+        except exceptions.LimitExceeded:
+            log.info(f'Достигнут лимит отправки резюме')
+            break
         except Exception as e:
-            if e is exceptions.LimitExceeded:
-                log.info(f'Достигнут лимит отправки резюме')
-                break
             log.error(e, exc_info=True)
 
 
-def run():
+def run(user_name: str = None):
     users_filters = load_filters()
     for user in users_filters:
+        if user_name and user.user_name != user_name:
+            log.info(f'SKIP {user.user_name}')
+            continue
         log.info(f'RUN APPLY for {user.user_name}')
         for v in user.variants:
             log.info(f'FILTERS: {v.resume.name}')
@@ -37,4 +40,4 @@ def run():
 
 
 if __name__ == '__main__':
-    run()
+    run(user_name='SergeyAY')

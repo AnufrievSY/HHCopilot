@@ -1,5 +1,5 @@
 .idea
 *.pyc
 config.yaml
-data/cookies/*
+data/*
 temp

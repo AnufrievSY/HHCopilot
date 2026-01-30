@@ -25,7 +25,7 @@ def _check_file(file_path: Path | str, expected_type: str) -> Path:
 
     return Path(file_path)
 
-def yaml_read(file_path: Path | str, schema: ModelMetaclass):
+def yaml_read(file_path: Path | str, schema: ModelMetaclass = None):
     """
     Загружает и валидирует данные из YAML-файла согласно указанной схеме.
 
@@ -40,7 +40,7 @@ def yaml_read(file_path: Path | str, schema: ModelMetaclass):
     if not data:
         raise ValueError(f"Файл {file_path} пуст или повреждён")
 
-    return schema(**data)
+    return schema(**data) if schema else data
 
 def txt_read(file_path: Path | str) -> list[str]:
     """

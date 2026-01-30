@@ -152,7 +152,7 @@ class Vacancy:
                 "_xsrf": self._cookies['_xsrf']
             })
 
-    def post_vacancy_accept(self, vacancy_id: str, resume_hash: str) -> requests.Response:
+    def post_vacancy_accept(self, vacancy_id: str, resume_hash: str, letter: str = "") -> requests.Response:
         if not self._cookies.get('_xsrf'):
             raise ValueError("X-XSRFTOKEN not found in Cookies")
 
@@ -170,7 +170,7 @@ class Vacancy:
                 "incomplete": "false",
                 "mark_applicant_visible_in_vacancy_country": "false",
                 "country_ids": "[]",
-                "letter": "",
+                "letter": letter,
                 "lux": "true",
                 "withoutTest": "no",
                 "hhtmFromLabel": "",

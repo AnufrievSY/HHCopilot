@@ -66,17 +66,10 @@ def get_vacancies(
     save_csv(df, ROOT / "temp" / "vacancies.csv")
     return df
 
-def apply_vacancy(user_name: str, vacancy_id: int):
+def apply_vacancy(user_name: str, vacancy_id: int, resume_hash: str, letter: str = ""):
     client = Client(user_name=user_name)
 
-    vacancy_info_response = client.vacancy.get_vacancy_info(vacancy_id=vacancy_id)
-    if vacancy_info_response.status_code == 200:
-        resume_hash = vacancy_info_response.json()["lastResponseResumeHash"]
-    else:
-        raise Exception(f"Error getting vacancy_info_response: {vacancy_info_response.status_code}\n"
-                        f"{vacancy_info_response.text}")
-
-    apply_vacancy_response = client.vacancy.post_vacancy_accept(vacancy_id=vacancy_id, resume_hash=resume_hash)
+    apply_vacancy_response = client.vacancy.post_vacancy_accept(vacancy_id=vacancy_id, resume_hash=resume_hash, letter=letter)
     if apply_vacancy_response.status_code == 200:
         log.info(f"[{vacancy_id}] Успешный отклик")
         return True

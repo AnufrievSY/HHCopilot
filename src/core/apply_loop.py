@@ -1,7 +1,7 @@
 from src.config import log, ROOT
 from src.common.readers import yaml_read
 from src.core.shemas import User
-from src.infra.hh import operations, exceptions
+from src.services.hh import operations, exceptions
 import tqdm
 
 def load_filters():

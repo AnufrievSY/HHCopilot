@@ -2,8 +2,8 @@ import pandas as pd
 
 from src.config import ROOT, log
 
-from src.infra.hh.client import Base as Client
-from src.infra.hh import schemas, exceptions
+from src.services.hh.client import Base as Client
+from src.services.hh import schemas, exceptions
 
 from src.common.readers import save_csv
 

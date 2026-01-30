@@ -1,7 +1,7 @@
 import requests
 from src.config import ROOT, log
 from src.common.readers import read_json
-from src.infra.hh import schemas
+from src.services.hh import schemas
 
 BASE_URL = "https://ekaterinburg.hh.ru"
 

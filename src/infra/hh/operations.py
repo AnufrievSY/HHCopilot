@@ -3,7 +3,7 @@ import pandas as pd
 from src.config import ROOT, log
 
 from src.infra.hh.client import Base as Client
-from src.infra.hh import schemas
+from src.infra.hh import schemas, exceptions
 
 from src.common.readers import save_csv
 
@@ -80,5 +80,10 @@ def apply_vacancy(user_name: str, vacancy_id: int, resume_hash: str, letter: str
         if apply_vacancy_response.json()['error'] == 'letter-required':
             log.warning(f"[{vacancy_id}] Обязательно сопроводительное письмо")
             return False
+        if apply_vacancy_response.json()['error'] == 'test-required':
+            log.warning(f"[{vacancy_id}] Обязательно прохождение теста")
+            return False
+        if apply_vacancy_response.json()['error'] == 'negotiations-limit-exceeded':
+            raise exceptions.LimitExceeded("Достигнут лимит откликов")
     raise Exception(f"[{vacancy_id}] Error getting apply_vacancy_response: {apply_vacancy_response.status_code}\n"
                     f"{apply_vacancy_response.text}")

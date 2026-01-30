@@ -3,8 +3,8 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class TextFormat:
     """Форматы текста логирования"""
-    simple = "%(levelname)-9s| %(asctime)s.%(msecs)03d | %(lineno)-3d %(module)s | %(message)s"
-    detailed = "%(levelname)-9s| %(asctime)s.%(msecs)03d | %(lineno)-3d %(pathname)s | %(message)s"
+    simple = "\r%(levelname)-9s| %(asctime)s.%(msecs)03d | %(lineno)-3d %(module)s | %(message)s"
+    detailed = "\r%(levelname)-9s| %(asctime)s.%(msecs)03d | %(lineno)-3d %(pathname)s | %(message)s"
 
 @dataclass(frozen=True)
 class DateFormat:
